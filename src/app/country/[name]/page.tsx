@@ -1,6 +1,6 @@
 import type { PaisDetalle } from "@/types";
 import { getCountryByName } from "@/api/countries";
-import "./country-detail.css";
+import "./country.css";
 import BackButton from "./BackButton";
 
 type CountryPageProps  = {
@@ -28,14 +28,14 @@ const  CountryPage = async ({ params }: CountryPageProps) => {
 
   return (
     <div className="page">
-      <div className="country-detail">
+      <div className="country">
         <h1>{country.name.common}</h1>
         <img src={country.flags.png} alt={country.name.common} />
         <h2>Población: {country.population}</h2>
-        <h3>Capital: {country.capital?.[0] || "N/A"}</h3>
+        <h3>Capital: {country.capital?.[0] || ""}</h3>
         <h3>Región: {country.region}</h3>
         <h3>Subregión: {country.subregion}</h3>
-        <h3>Continente: {country.continents?.[0] || "N/A"}</h3>
+        <h3>Continente: {country.continents?.[0] || ""}</h3>
         <p>Código: {country.cca3}</p>
         <BackButton />
       </div>

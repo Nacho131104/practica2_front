@@ -1,5 +1,5 @@
 "use client"
-import Link from "next/link"; // Importante para la navegación
+import Link from "next/link";
 import "./country.css"
 
 type params = {
@@ -10,7 +10,6 @@ type params = {
 
 const Country = ({name, flag, population}: params) => {
     return (
-        // Envolvemos todo en un Link que apunta a la ruta dinámica
         <Link href={`/country/${encodeURIComponent(name)}`}>
             <div className="country-card">
                 <h1>{name}</h1>

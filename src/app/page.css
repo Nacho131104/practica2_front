@@ -1,4 +1,4 @@
-/* page.css */
+
 .page {
   display: flex;
   flex-direction: column; 
@@ -15,16 +15,4 @@
   top: 10px;
   background: white;
   padding: 10px;
-}
-
-.search-container input {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.search-container button {
-  padding: 8px 16px;
-  background-color: #0070f3;
-  color: white;
 }
