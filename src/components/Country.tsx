@@ -10,7 +10,7 @@ type params = {
 
 const Country = ({name, flag, population}: params) => {
     return (
-        <Link href={`/country/${encodeURIComponent(name)}`}>
+        <Link href={`/country/${name}`}>
             <div className="country-card">
                 <h1>{name}</h1>
                 <img src={flag} alt={name}  />
