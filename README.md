@@ -42,6 +42,3 @@
    - Usa el botón "Volver" para regresar.
 
 
-
-## Uso de la IA
-- He usado la IA para algun estilo css como el `max-with`. 
