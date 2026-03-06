@@ -44,4 +44,4 @@
 
 
 ## Uso de la IA
-- He usado la IA para alguna resolucion como el encodeURIComponent.
+- He usado la IA para algun estilo css como el `max-with`. 
